@@ -39,15 +39,15 @@ const {name, img, price} = shoe
       className={classes.container}
       spacing={4}
       >
-      <Grid item xs={8}  width="100%" height="100%"  style={{backgroundColor:""}}>
+      <Grid item xs={12} sm={8}  width="100%" height="100%" >
         <Paper width="100%" height={250} >
           <img src={img} alt={name} width="100%"  />
         </Paper>
         
       </Grid>
 
-      <Grid  xs={4}  width="100%" style={{backgroundColor:""}}>
-        <Paper  width="75%" height="400px" style={{marginTop:20}}>
+      <Grid  xs={12} sm={4}  width="100%" >
+        <Paper  style={{marginTop:20}}>
           <Typography variant="h3" align='center'>
             {name}
           </Typography>
